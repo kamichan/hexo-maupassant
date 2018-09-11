@@ -1,6 +1,6 @@
 +function($) {
     $('pre').addClass('prettyprint');
     prettyPrint();
-    $('.prettyprint').css({'border': '0px', 'font-style': 'italic'});
+    $('.prettyprint').css({'border': '0px'});
     $('.com').removeClass('com');
 }(jQuery);
